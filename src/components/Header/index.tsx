@@ -14,7 +14,7 @@ export const Header = ({toggleTheme}: Props) => {
 
  return (
     <Container>
-        HELLO WORLD
+        BUSCAR CEP
         <Switch
         onChange={toggleTheme}
         checked={title === 'dark'}

@@ -5,6 +5,7 @@ import { ThemeProvider,DefaultTheme } from "styled-components";
 import light from "./styles/themes/light";
 import dark from "./styles/themes/dark";
 import usePersistedState from "./utils/usePersistedState";
+import { Cep } from "./components/Cep";
 
 
 function App() {
@@ -19,6 +20,7 @@ const toggleTheme = () => {
       <div className="App">
         <GlobalStyle />
         <Header toggleTheme={toggleTheme}/>
+        <Cep />
       </div>
     </ThemeProvider>
   );
