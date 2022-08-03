@@ -56,6 +56,17 @@ input::placeholder {
     border-radius: 8px;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .main-container h2 {
     margin: 16px 0;
     font-size: 30px;

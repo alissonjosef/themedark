@@ -1,7 +1,8 @@
-import { useState } from "react"
+import {  useState } from "react"
 
 import { FiSearch } from "react-icons/fi"
 import { api } from "../../services/api"
+
 import './style.css'
 
 interface Props {
@@ -16,6 +17,7 @@ interface Props {
 export const Cep = () => {
     const [ input, setInput] = useState('')
     const [ valueCep, setValueCep] = useState<Props>({})
+
    
 
     async function HandleValueClick() {
